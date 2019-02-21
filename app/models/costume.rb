@@ -7,7 +7,7 @@ class Costume < ActiveRecord::Base
       t.string :name 
       t.integer :price 
       t.size :size 
-      t.string :image url 
+      t.string :image_url 
       t.timestamp
       t.timestamp 
     end 
